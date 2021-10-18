@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/ivCancel"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="right"
+            android:background="@drawable/iv_cancel" />
+
+        <com.bbotdev.vahaninfo.customclass.CustomText
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/montserrat_medium"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <com.bbotdev.vahaninfo.customclass.CustomText
+            android:id="@+id/tvDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:fontFamily="@font/montserrat_medium"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text=""
+            android:textColor="@color/gray"
+            android:textSize="@dimen/_12sdp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/iv_rate_us_img">
+
+    </ImageView>
+
+
+    <com.bbotdev.vahaninfo.customclass.CustomText
+        android:id="@+id/tvRateus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@color/colorAccent"
+        android:fontFamily="@font/montserrat_medium"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/_12sdp"
+        android:text="RATE US"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_14sdp" />
+
+
+</LinearLayout>

@@ -1,0 +1,519 @@
+{
+  "version": 1,
+  "3000012": {
+    "categories": [
+      38
+    ],
+    "purposes": [
+      1,
+      3,
+      2,
+      8
+    ]
+  },
+  "3000013": {
+    "categories": [
+      39
+    ],
+    "purposes": [
+      1,
+      6,
+      2,
+      8,
+      11
+    ]
+  },
+  "3000023": {
+    "categories": [
+      37
+    ],
+    "purposes": [
+      1,
+      9
+    ]
+  },
+  "3000024": {
+    "categories": [
+      37
+    ],
+    "purposes": [
+      5,
+      6,
+      2
+    ]
+  },
+  "3000025": {
+    "categories": [
+      93,
+      38
+    ],
+    "purposes": [
+      1,
+      5,
+      8
+    ]
+  },
+  "3000022": {
+    "categories": [
+      37
+    ],
+    "purposes": [
+      1,
+      6,
+      2
+    ]
+  },
+  "3000031": {
+    "categories": [
+      38
+    ],
+    "purposes": [
+      4
+    ]
+  },
+  "3000039": {
+    "categories": [
+      40,
+      93,
+      38
+    ],
+    "purposes": [
+      1,
+      3,
+      6,
+      2
+    ]
+  },
+  "3000016": {
+    "categories": [
+      36
+    ],
+    "purposes": [
+      1,
+      3,
+      5,
+      6,
+      2,
+      8
+    ]
+  },
+  "3000037": {
+    "categories": [
+      37
+    ],
+    "purposes": [
+      1,
+      5
+    ]
+  },
+  "3000006": {
+    "categories": [
+      38
+    ],
+    "purposes": [
+      1,
+      3,
+      6,
+      2
+    ]
+  },
+  "3000002": {
+    "categories": [
+      37
+    ],
+    "purposes": [
+      6,
+      2,
+      7
+    ]
+  },
+  "3000027": {
+    "categories": [
+      37
+    ],
+    "purposes": [
+      1,
+      6,
+      2
+    ]
+  },
+  "4000155": {
+    "categories": [
+      39
+    ],
+    "purposes": [
+      1,
+      6,
+      2
+    ]
+  },
+  "4000178": {
+    "categories": [
+      37
+    ],
+    "purposes": [
+      1,
+      3,
+      4,
+      5,
+      8
+    ]
+  },
+  "3000028": {
+    "categories": [
+      40
+    ],
+    "purposes": [
+      3,
+      6,
+      2,
+      11
+    ]
+  },
+  "3000030": {
+    "categories": [
+      38
+    ],
+    "purposes": [
+      6
+    ]
+  },
+  "3000032": {
+    "categories": [
+      38
+    ],
+    "purposes": [
+      1,
+      6,
+      2
+    ]
+  },
+  "3000034": {
+    "categories": [
+      38
+    ],
+    "purposes": [
+      5
+    ]
+  },
+  "3000036": {
+    "categories": [
+      37
+    ],
+    "purposes": [
+      2
+    ]
+  },
+  "3000035": {
+    "categories": [
+      37
+    ],
+    "purposes": [
+      2
+    ]
+  },
+  "3000038": {
+    "categories": [
+      38
+    ],
+    "purposes": [
+      3,
+      2
+    ]
+  },
+  "3000041": {
+    "categories": [
+      38
+    ],
+    "purposes": [
+      2
+    ]
+  },
+  "3000040": {
+    "categories": [
+      38
+    ],
+    "purposes": [
+      2
+    ]
+  },
+  "3000029": {
+    "categories": [
+      38
+    ],
+    "purposes": [
+      6,
+      2
+    ]
+  },
+  "3000021": {
+    "categories": [
+      37
+    ],
+    "purposes": [
+      3,
+      6,
+      2
+    ]
+  },
+  "3000019": {
+    "categories": [
+      38
+    ],
+    "purposes": [
+      4
+    ]
+  },
+  "3000014": {
+    "categories": [
+      39
+    ],
+    "purposes": [
+      6,
+      2,
+      8
+    ]
+  },
+  "3000015": {
+    "categories": [
+      39
+    ],
+    "purposes": [
+      6
+    ]
+  },
+  "3000020": {
+    "categories": [
+      38
+    ],
+    "purposes": [
+      4
+    ]
+  },
+  "3000017": {
+    "categories": [
+      37
+    ],
+    "purposes": [
+      2,
+      9
+    ]
+  },
+  "3000018": {
+    "categories": [
+      93,
+      38
+    ],
+    "purposes": [
+      5
+    ]
+  },
+  "3000003": {
+    "categories": [
+      37
+    ],
+    "purposes": [
+      1,
+      4
+    ]
+  },
+  "3000011": {
+    "categories": [
+      38
+    ],
+    "purposes": [
+      1,
+      3,
+      6,
+      2,
+      8
+    ]
+  },
+  "3000009": {
+    "categories": [
+      38
+    ],
+    "purposes": [
+      6
+    ]
+  },
+  "3000010": {
+    "categories": [
+      38
+    ],
+    "purposes": [
+      6
+    ]
+  },
+  "3000008": {
+    "categories": [
+      38
+    ],
+    "purposes": [
+      6
+    ]
+  },
+  "3000007": {
+    "categories": [
+      38
+    ],
+    "purposes": [
+      2
+    ]
+  },
+  "3000005": {
+    "categories": [
+      38
+    ],
+    "purposes": [
+      1,
+      6
+    ]
+  },
+  "4000149": {
+    "categories": [
+      36
+    ],
+    "purposes": [
+      3,
+      4,
+      6,
+      2
+    ]
+  },
+  "4000150": {
+    "categories": [
+      38
+    ],
+    "purposes": [
+      6,
+      2
+    ]
+  },
+  "4000171": {
+    "categories": [
+      39
+    ],
+    "purposes": [
+      1,
+      3,
+      5,
+      6,
+      2,
+      8
+    ]
+  },
+  "4000176": {
+    "categories": [
+      38
+    ],
+    "purposes": [
+      3,
+      4,
+      2
+    ]
+  },
+  "3000026": {
+    "categories": [
+      37
+    ],
+    "purposes": [
+      2
+    ]
+  },
+  "3000004": {
+    "categories": [
+      37
+    ],
+    "purposes": [
+      2
+    ]
+  },
+  "3000001": {
+    "categories": [
+      37
+    ],
+    "purposes": [
+      6,
+      2
+    ]
+  },
+  "4000670": {
+    "categories": [
+      38
+    ],
+    "purposes": [
+      3,
+      6,
+      2
+    ]
+  },
+  "4000671": {
+    "categories": [
+      36
+    ],
+    "purposes": [
+      1,
+      3,
+      2
+    ]
+  },
+  "4000672": {
+    "categories": [
+      37
+    ],
+    "purposes": [
+      1,
+      6,
+      2
+    ]
+  },
+  "4000693": {
+    "categories": [
+      37
+    ],
+    "purposes": [
+      2,
+      7
+    ]
+  },
+  "4000694": {
+    "categories": [
+      38
+    ],
+    "purposes": [
+      1,
+      3,
+      2
+    ]
+  },
+  "4000695": {
+    "categories": [
+      40
+    ],
+    "purposes": [
+      3,
+      2
+    ]
+  },
+  "4000698": {
+    "categories": [
+      38
+    ],
+    "purposes": [
+      3,
+      6,
+      2
+    ]
+  },
+  "4000699": {
+    "categories": [
+      38
+    ],
+    "purposes": [
+      3,
+      6,
+      2
+    ]
+  }
+}

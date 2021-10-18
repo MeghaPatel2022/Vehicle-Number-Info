@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="list_firstline_textsize">24sp</dimen>
+    <dimen name="list_icon_height">120dp</dimen>
+    <dimen name="list_icon_width">120dp</dimen>
+    <dimen name="list_secondline_textsize">18sp</dimen>
+    <dimen name="step_button_marginbottom">65dp</dimen>
+    <dimen name="step_image_height">720dp</dimen>
+    <dimen name="step_image_margintop">120dp</dimen>
+    <dimen name="step_text_size">22sp</dimen>
+    <dimen name="step_textblock_height">200dp</dimen>
+    <dimen name="step_textblock_marginbottom">140dp</dimen>
+</resources>

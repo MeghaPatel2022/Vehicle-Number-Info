@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_action_bar_default_height_material">64dp</dimen>
+    <dimen name="abc_action_bar_default_padding_material">4dp</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
+    <dimen name="abc_config_prefDialogWidth">580dp</dimen>
+    <dimen name="list_firstline_textsize">22sp</dimen>
+    <dimen name="list_icon_height">120dp</dimen>
+    <dimen name="list_icon_width">120dp</dimen>
+    <dimen name="list_secondline_textsize">16sp</dimen>
+    <dimen name="step_button_marginbottom">65dp</dimen>
+    <dimen name="step_image_height">600dp</dimen>
+    <dimen name="step_image_margintop">80dp</dimen>
+    <dimen name="step_text_size">22sp</dimen>
+    <dimen name="step_textblock_height">200dp</dimen>
+    <dimen name="step_textblock_marginbottom">140dp</dimen>
+    <dimen name="abc_action_bar_content_inset_material">24dp</dimen>
+    <dimen name="abc_action_bar_navigation_padding_start_material">8dp</dimen>
+    <dimen name="abc_action_bar_overflow_padding_end_material">18dp</dimen>
+    <dimen name="mr_media_route_controller_art_max_height">480dp</dimen>
+</resources>

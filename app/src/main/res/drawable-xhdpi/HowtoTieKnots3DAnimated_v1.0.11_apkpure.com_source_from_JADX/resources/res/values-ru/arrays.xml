@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="speedTitles">
+        <item>Очень быстро (100 мс)</item>
+        <item>Быстро (150 мс)</item>
+        <item>Нормально (250 мс)</item>
+        <item>Медленно (500 мс)</item>
+        <item>Очень медленно (1000 мс)</item>
+    </array>
+    <array name="speedValues">
+        <item>100</item>
+        <item>150</item>
+        <item>250</item>
+        <item>500</item>
+        <item>1000</item>
+    </array>
+</resources>

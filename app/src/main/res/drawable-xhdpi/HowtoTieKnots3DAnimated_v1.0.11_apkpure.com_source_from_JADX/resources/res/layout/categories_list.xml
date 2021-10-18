@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:padding="6dp">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="@dimen/list_icon_width"
+        android:layout_height="@dimen/list_icon_height"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="10dp" />
+
+    <TextView
+        android:id="@+id/firstLine"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|center_vertical|center_horizontal|center"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:shadowColor="#999999"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1"
+        android:text=""
+        android:textColor="#555555"
+        android:textSize="@dimen/list_firstline_textsize" />
+
+    <TextView
+        android:id="@+id/secondLine"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:shadowColor="#999999"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1"
+        android:singleLine="true"
+        android:text=""
+        android:textColor="#555555"
+        android:textSize="@dimen/list_firstline_textsize" />
+</LinearLayout>

@@ -1,0 +1,82 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 30
+
+    dataBinding {
+        enabled = true
+    }
+
+    defaultConfig {
+        applicationId "com.bbotdev.vahaninfo"
+        minSdkVersion 19
+        targetSdkVersion 30
+        versionCode 10
+        versionName "1.9"
+
+        multiDexEnabled true
+        setProperty("archivesBaseName", "RTO Vahan Registration Details-$versionName")
+
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            shrinkResources true
+        }
+    }
+
+    // Butterknife requires Java 8.
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    //noinspection GradleCompatible
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.2.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    testImplementation 'junit:junit:4.13'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'com.loopj.android:android-async-http:1.4.9'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    implementation 'com.onesignal:OneSignal:[4.0.0, 4.99.99]'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'com.intuit.sdp:sdp-android:1.0.6'
+    implementation 'org.jsoup:jsoup:1.13.1'
+    implementation 'com.google.android.gms:play-services-ads:19.6.0'
+
+    implementation "androidx.multidex:multidex:2.0.1"
+
+    implementation 'com.facebook.android:audience-network-sdk:6.+'
+
+    // Import the BoM for the Firebase platform
+    implementation platform('com.google.firebase:firebase-bom:26.3.0')
+
+    // Declare the dependency for the Analytics library
+    // When using the BoM, you don't specify versions in Firebase library dependencies
+    implementation 'com.google.firebase:firebase-analytics'
+
+    implementation 'com.amitshekhar.android:android-networking:1.0.2'
+
+    // For mopub banners
+    implementation('com.mopub:mopub-sdk-banner:5.16.0@aar') {
+        transitive = true
+    }
+    // For mopub interstitials and rewarded ads
+    implementation('com.mopub:mopub-sdk-fullscreen:5.16.0@aar') {
+        transitive = true
+    }
+
+    // In App-Update
+    implementation 'com.google.android.play:core:1.10.0'
+
+}
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.onesignal.androidsdk.onesignal-gradle-plugin'

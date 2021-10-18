@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">RTO Vahan Registration Details Vehicle Information</string>
+    <string name="app_name1">RTO Vahan Registration Details Vehicle Information</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="no_data_found">NoDataFound</string>
+
+
+    <string name="no_data">No any recent searches available.</string>
+    <string name="email">bitbotdevelopers@gmail.com</string>
+
+    <string name="NoteTitle">Not showing current owner details?</string>
+    <string name="Note">Note: Newly registered/transferred vehicle details may not be updated, please try after few days or check with nearest RTO.</string>
+    <string name="privacy_policy">https://weatherprivacypolicy.blogspot.com/2020/08/privacy-policy-we-collects-information.html</string>
+
+    <string name="licence">Driving licence</string>
+    <string name="challan">Check challan</string>
+    <string name="history">Search history</string>
+
+    <string name="app_id">ca-app-pub-1599168469857155~4433176242</string>
+
+    <string name="publisher">Top Weather</string>
+    <string name="Echallan">https://echallan.parivahan.gov.in/index/check-challan-status</string>
+
+    <!--    <string name="admob_interstitial_id">ca-app-pub-1599168469857155/3461455441</string>-->
+    <string name="admob_interstitial_id">ca-app-pub-3940256099942544/1033173712</string>
+    <!--    <string name="admob_banner_id">ca-app-pub-1599168469857155/4050032863</string>-->
+    <string name="admob_banner_id">ca-app-pub-3940256099942544/6300978111</string>
+
+    <!-- Facebook ADs Placement ID -->
+    <!--    <string name="fb_banner_placementID">IMG_16_9_APP_INSTALL#417073056222836_417073192889489</string>-->
+    <!--    <string name="fb_inter_placementID">417073056222836_417074572889351</string>-->
+    <!--    <string name="facebook_app_id">3868539376535667</string>-->
+
+    <!-- MoPub Ads -->
+    <string name="ad_unit_id_banner">a798830e87884e02aba510dcd8402d1a</string>
+    <string name="ad_unit_id_interstitial">c020ee3ca97e4dfdb60037bfd9b4b3e9</string>
+
+</resources>

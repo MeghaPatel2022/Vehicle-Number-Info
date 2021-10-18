@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="speedTitles">
+        <item>Very fast (100 ms)</item>
+        <item>Fast (150 ms)</item>
+        <item>Normal (250 ms)</item>
+        <item>Slow (500 ms)</item>
+        <item>Very slow (1000 ms)</item>
+    </array>
+    <array name="speedValues">
+        <item>100</item>
+        <item>150</item>
+        <item>250</item>
+        <item>500</item>
+        <item>1000</item>
+    </array>
+</resources>

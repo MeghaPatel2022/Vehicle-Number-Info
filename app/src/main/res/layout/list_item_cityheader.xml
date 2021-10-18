@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="fuelData"
+            type="com.bbotdev.vahaninfo.objectdata.FuelData" />
+    </data>
+
+    <LinearLayout
+        android:id="@+id/lout_main_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/_15sdp"
+        android:paddingTop="@dimen/_10sdp"
+        android:paddingRight="@dimen/_15sdp"
+        android:paddingBottom="@dimen/_10sdp">
+
+
+        <com.bbotdev.vahaninfo.customclass.CustomText
+            android:id="@+id/tvHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:fontFamily="@font/montserrat_medium"
+            android:maxLines="1"
+            android:text="@{fuelData.cityname}"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_13sdp">
+
+        </com.bbotdev.vahaninfo.customclass.CustomText>
+
+
+    </LinearLayout>
+</layout>

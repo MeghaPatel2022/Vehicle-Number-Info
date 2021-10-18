@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="onClick"
+            type="com.bbotdev.vahaninfo.activity.DrivingLicenceActivity.MyClickHandlers" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            android:background="@drawable/bg"
+            android:theme="@style/AppTheme.AppBarOverlay"
+            android:visibility="gone"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+        <RelativeLayout
+            android:id="@+id/rl_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:background="@drawable/toolbar">
+
+            <ImageView
+                android:id="@+id/img_back"
+                android:layout_width="?actionBarSize"
+                android:layout_height="match_parent"
+                android:onClick="@{onClick::onBackClick}"
+                android:paddingTop="@dimen/_11sdp"
+                android:paddingRight="@dimen/_13sdp"
+                android:paddingBottom="@dimen/_11sdp"
+                android:scaleType="fitXY"
+                android:src="@drawable/back" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/montserrat_regular"
+                android:gravity="center"
+                android:text="Check Licence detali" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/rl_toolbar"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:orientation="vertical"
+            android:padding="@dimen/_12sdp">
+
+            <com.bbotdev.vahaninfo.customclass.CustomText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_medium"
+                android:maxLines="1"
+                android:text="Enter Licence Number"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold">
+
+            </com.bbotdev.vahaninfo.customclass.CustomText>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_7sdp"
+                android:layout_toLeftOf="@+id/tvSearch"
+                android:elevation="@dimen/_5sdp"
+                app:cardCornerRadius="@dimen/_5sdp"
+                app:cardUseCompatPadding="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/etLicenceNo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="@dimen/_12sdp"
+                        android:background="@android:color/transparent"
+                        android:fontFamily="@font/montserrat_light"
+                        android:gravity="center|left"
+                        android:hint="GJ - XXXXXXXXXXXXX"
+                        android:inputType="textVisiblePassword"
+                        android:paddingLeft="@dimen/_10sdp"
+                        android:textColorHint="#9A9A9A"
+                        android:textSize="@dimen/_11sdp"
+                        android:textStyle="normal" />
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <com.bbotdev.vahaninfo.customclass.CustomText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:fontFamily="@font/montserrat_medium"
+                android:maxLines="1"
+                android:text="Enter Date of Birth"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold">
+
+            </com.bbotdev.vahaninfo.customclass.CustomText>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_7sdp"
+                android:layout_toLeftOf="@+id/tvSearch"
+                android:elevation="@dimen/_5sdp"
+                app:cardCornerRadius="@dimen/_5sdp"
+                app:cardUseCompatPadding="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/etBirthDate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="@dimen/_12sdp"
+                        android:background="@android:color/transparent"
+                        android:fontFamily="@font/montserrat_light"
+                        android:gravity="center|left"
+                        android:hint="DD-MM-YYYY"
+                        android:inputType="textVisiblePassword"
+                        android:onClick="@{onClick::onBirthDateClicked}"
+                        android:paddingLeft="@dimen/_10sdp"
+                        android:textColorHint="#9A9A9A"
+                        android:textSize="@dimen/_11sdp"
+                        android:textStyle="normal" />
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <ImageView
+                android:id="@+id/tvSearch"
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:onClick="@{onClick::onSearchClick}"
+                android:src="@drawable/get" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_230sdp"
+            android:layout_alignParentBottom="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/baby_driver" />
+
+    </RelativeLayout>
+</layout>
